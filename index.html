@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- WebGL Background Canvas -->
-    <canvas id="bg"></canvas>
+    <!-- WebGL Background Canvas (Hidden) -->
+    <canvas id="bg" style="display: none;"></canvas>
 
     <!-- Header -->
     <header class="header">
@@ -28,6 +28,8 @@
         <div class="split-container">
             <!-- Left Side (Blue - Technology) -->
             <section class="side side-left" id="blue-side">
+                <!-- Background Image for Blue Side -->
+                <div class="background-image blue-bg rayos"></div>
                 <!-- Primary Menu Spheres -->
                 <nav class="primary-menu" aria-label="Technology services">
                     <ul class="sphere-list" id="blue-spheres">
@@ -41,6 +43,8 @@
 
             <!-- Right Side (Red - Gamer) -->
             <section class="side side-right" id="red-side">
+                <!-- Background Image for Red Side -->
+                <div class="background-image red-bg rayos"></div>
                 <!-- Primary Menu Spheres -->
                 <nav class="primary-menu" aria-label="Gaming and VR services">
                     <ul class="sphere-list" id="red-spheres">
