@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Experiences - Interactive Landing Page</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- WebGL Background Canvas -->
+    <canvas id="bg"></canvas>
+
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title">OTHER EXPERIENCES</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Split Screen Container -->
+        <div class="split-container">
+            <!-- Left Side (Blue - Technology) -->
+            <section class="side side-left" id="blue-side">
+                <!-- Primary Menu Spheres -->
+                <nav class="primary-menu" aria-label="Technology services">
+                    <ul class="sphere-list" id="blue-spheres">
+                        <!-- Spheres will be rendered by JavaScript -->
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- Center Divider -->
+            <div class="center-divider" aria-hidden="true"></div>
+
+            <!-- Right Side (Red - Gamer) -->
+            <section class="side side-right" id="red-side">
+                <!-- Primary Menu Spheres -->
+                <nav class="primary-menu" aria-label="Gaming and VR services">
+                    <ul class="sphere-list" id="red-spheres">
+                        <!-- Spheres will be rendered by JavaScript -->
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <!-- Center Bubble (Focus Mode) -->
+        <div class="center-bubble" id="center-bubble" role="button" tabindex="0" aria-label="Return to main menu" aria-hidden="true">
+            <div class="bubble-content">
+                <div class="bubble-thumbnail"></div>
+                <h2 class="bubble-title"></h2>
+            </div>
+        </div>
+
+        <!-- Sub Menu (Chips) -->
+        <nav class="sub-menu" id="sub-menu" aria-label="Sub services" aria-hidden="true">
+            <ul class="chip-list" id="chip-list">
+                <!-- Chips will be rendered by JavaScript -->
+            </ul>
+        </nav>
+
+        <!-- Media Panel -->
+        <aside class="media-panel" id="media-panel" aria-label="Service details" aria-hidden="true">
+            <button class="close-btn" id="close-btn" aria-label="Close panel">
+                <span class="close-icon">×</span>
+            </button>
+            
+            <div class="panel-content">
+                <div class="media-container">
+                    <video class="media-video" id="media-video" muted loop playsinline>
+                        Your browser does not support the video tag.
+                    </video>
+                    <img class="media-image" id="media-image" alt="" style="display: none;">
+                </div>
+                
+                <div class="text-content">
+                    <h3 class="panel-title" id="panel-title"></h3>
+                    <p class="panel-description" id="panel-description"></p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Back Button -->
+        <button class="back-btn" id="back-btn" aria-label="Return to main menu" aria-hidden="true">
+            <span class="back-icon">←</span>
+            <span class="back-text">Volver</span>
+        </button>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="webgl-background.js"></script>
+</body>
+</html>
