@@ -57,150 +57,150 @@ const APP_DATA = {
         // VR sub-items
         vr: [
             {
-                id: 'unplugged',
-                title: 'Unplugged',
-                mediaUrl: 'media/unplugged.mp4',
+                id: 'unplugged-air-guitar',
+                title: 'Unplugged: Air Guitar',
+                mediaUrl: 'media/unplugged-air-guitar.mp4',
                 mediaType: 'video',
-                text: 'Experiencia VR inmersiva que te transporta a mundos completamente desconectados de la realidad. Vive aventuras únicas sin límites físicos.'
+                text: 'Experiencia VR inmersiva de guitarra virtual que te permite tocar sin instrumento físico. Vive la música de una manera completamente nueva y revolucionaria.'
             },
             {
-                id: 'other-experiences',
-                title: 'Other Experiences',
-                mediaUrl: 'media/other-experiences.mp4',
+                id: 'unplugged-moonscraper',
+                title: 'Unplugged VR: Moonscraper Integration',
+                mediaUrl: 'media/unplugged-moonscraper.mp4',
                 mediaType: 'video',
-                text: 'Colección de experiencias VR innovadoras que redefinen los límites de la realidad virtual. Desde simulaciones educativas hasta entretenimiento de vanguardia.'
+                text: 'Integración avanzada de VR con Moonscraper para crear experiencias musicales únicas. Combina lo mejor de ambos mundos para una experiencia inmersiva completa.'
             },
             {
-                id: 'medicina',
-                title: 'Medicina',
-                mediaUrl: 'media/medicina.gif',
-                mediaType: 'image',
-                text: 'Aplicaciones VR revolucionarias en el campo médico. Simulaciones quirúrgicas, terapia de exposición y entrenamiento médico avanzado.'
+                id: 'unplugged-song-editor',
+                title: 'Unplugged VR Song Editor',
+                mediaUrl: 'media/unplugged-song-editor.mp4',
+                mediaType: 'video',
+                text: 'Editor de canciones en realidad virtual que permite crear y modificar música de forma intuitiva y visual. Una herramienta revolucionaria para compositores.'
             }
         ],
         
         // PYMES sub-items
         pymes: [
             {
-                id: 'erp-ligero',
-                title: 'ERP Ligero',
-                mediaUrl: 'media/erp-ligero.mp4',
+                id: 'cross-platform-unity',
+                title: 'Streamlining Cross-Platform Development in Unity',
+                mediaUrl: 'media/cross-platform-unity.mp4',
                 mediaType: 'video',
-                text: 'Sistema ERP personalizado y optimizado para pequeñas y medianas empresas. Gestión integral de recursos empresariales de forma eficiente.'
+                text: 'Optimización y automatización del desarrollo multiplataforma en Unity. Soluciones empresariales para agilizar el proceso de desarrollo de software.'
             },
             {
-                id: 'integraciones',
-                title: 'Integraciones',
-                mediaUrl: 'media/integraciones.gif',
-                mediaType: 'image',
-                text: 'Integración completa de sistemas y aplicaciones empresariales. Conectamos todas tus herramientas para un flujo de trabajo optimizado.'
+                id: 'telemedicine-server',
+                title: 'Custom Telemedicine Server Solution',
+                mediaUrl: 'media/telemedicine-server.mp4',
+                mediaType: 'video',
+                text: 'Solución de servidor de telemedicina personalizada para empresas del sector salud. Plataforma completa para consultas médicas virtuales.'
             },
             {
-                id: 'soporte-360',
-                title: 'Soporte 360',
-                mediaUrl: 'media/soporte-360.mp4',
+                id: 'medicine-classes',
+                title: 'PROJECT MEDICINE CLASSES',
+                mediaUrl: 'media/medicine-classes.mp4',
                 mediaType: 'video',
-                text: 'Soporte técnico integral las 24 horas. Monitoreo proactivo, mantenimiento preventivo y asistencia inmediata para tu empresa.'
+                text: 'Plataforma educativa para clases de medicina. Sistema integral para instituciones educativas del sector médico.'
             }
         ],
         
         // Webs sub-items
         webs: [
             {
-                id: 'ecommerce',
-                title: 'E-commerce',
-                mediaUrl: 'media/ecommerce.mp4',
+                id: 'telemedicine-web',
+                title: 'Custom Telemedicine Server Solution',
+                mediaUrl: 'media/telemedicine-web.mp4',
                 mediaType: 'video',
-                text: 'Plataformas de comercio electrónico completas y optimizadas. Desde tiendas online hasta marketplaces empresariales.'
+                text: 'Solución web completa de telemedicina. Plataforma online para consultas médicas virtuales con todas las funcionalidades necesarias.'
             },
             {
-                id: 'landing-pages',
-                title: 'Landing Pages',
-                mediaUrl: 'media/landing-pages.gif',
-                mediaType: 'image',
-                text: 'Páginas de aterrizaje de alto rendimiento diseñadas para convertir visitantes en clientes. Optimización continua y A/B testing.'
+                id: 'medicine-classes-web',
+                title: 'PROJECT MEDICINE CLASSES',
+                mediaUrl: 'media/medicine-classes-web.mp4',
+                mediaType: 'video',
+                text: 'Plataforma web educativa para clases de medicina. Sistema de aprendizaje online completo para instituciones médicas.'
             },
             {
-                id: 'web-apps',
-                title: 'Web Apps',
-                mediaUrl: 'media/web-apps.mp4',
+                id: 'space-scumm-web',
+                title: 'Space Scumm',
+                mediaUrl: 'media/space-scumm-web.mp4',
                 mediaType: 'video',
-                text: 'Aplicaciones web progresivas (PWA) con funcionalidades avanzadas. Experiencias de usuario nativas en cualquier dispositivo.'
+                text: 'Juego web interactivo con temática espacial. Experiencia de juego completa accesible desde cualquier navegador.'
             }
         ],
         
         // Automatización sub-items
         automatizacion: [
             {
-                id: 'rpa',
-                title: 'RPA',
-                mediaUrl: 'media/rpa.mp4',
+                id: 'cross-platform-automation',
+                title: 'Streamlining Cross-Platform Development in Unity',
+                mediaUrl: 'media/cross-platform-automation.mp4',
                 mediaType: 'video',
-                text: 'Automatización robótica de procesos para tareas repetitivas. Aumenta la eficiencia y reduce errores en tus operaciones.'
+                text: 'Automatización del desarrollo multiplataforma en Unity. Optimización de procesos de desarrollo para mayor eficiencia.'
             },
             {
-                id: 'workflows',
-                title: 'Workflows',
-                mediaUrl: 'media/workflows.gif',
-                mediaType: 'image',
-                text: 'Diseño e implementación de flujos de trabajo automatizados. Optimiza procesos empresariales de principio a fin.'
+                id: 'physiotherapy-cervical',
+                title: 'PHYSIOTHERAPY VR (CERVICAL WORK)',
+                mediaUrl: 'media/physiotherapy-cervical.mp4',
+                mediaType: 'video',
+                text: 'Sistema automatizado de fisioterapia VR para trabajo cervical. Procesos automatizados de rehabilitación y seguimiento.'
             },
             {
-                id: 'ai-integration',
-                title: 'AI Integration',
-                mediaUrl: 'media/ai-integration.mp4',
+                id: 'repair-smartphone-xr',
+                title: 'REPAIR SMARTPHONE WITH XR',
+                mediaUrl: 'media/repair-smartphone-xr.mp4',
                 mediaType: 'video',
-                text: 'Integración de inteligencia artificial en procesos empresariales. Machine learning y análisis predictivo para decisiones inteligentes.'
+                text: 'Sistema automatizado de reparación de smartphones con XR. Guías interactivas y procesos automatizados de diagnóstico.'
             }
         ],
         
         // Consola sub-items
         consola: [
             {
-                id: 'ps5',
-                title: 'PlayStation 5',
-                mediaUrl: 'media/ps5.mp4',
+                id: 'space-scumm',
+                title: 'Space Scumm',
+                mediaUrl: 'media/space-scumm.mp4',
                 mediaType: 'video',
-                text: 'Desarrollo de juegos nativos para PlayStation 5. Aprovecha al máximo las capacidades de la nueva generación de consolas.'
+                text: 'Juego de aventura espacial para consolas. Experiencia gaming completa con gráficos optimizados para plataformas de consola.'
             },
             {
-                id: 'xbox',
-                title: 'Xbox Series X',
-                mediaUrl: 'media/xbox.gif',
-                mediaType: 'image',
-                text: 'Creación de experiencias gaming para Xbox Series X. Optimización para rendimiento y gráficos de última generación.'
+                id: 'destroy-star-death',
+                title: 'Destroy Star Death',
+                mediaUrl: 'media/destroy-star-death.mp4',
+                mediaType: 'video',
+                text: 'Juego de acción y destrucción para consolas. Mecánicas de juego avanzadas y efectos visuales de última generación.'
             },
             {
-                id: 'nintendo',
-                title: 'Nintendo Switch',
-                mediaUrl: 'media/nintendo.mp4',
+                id: 'tikismikis',
+                title: 'TIKISMIKIS',
+                mediaUrl: 'media/tikismikis.mp4',
                 mediaType: 'video',
-                text: 'Desarrollo multiplataforma para Nintendo Switch. Juegos que aprovechan la versatilidad única de la consola híbrida.'
+                text: 'Juego de puzzle y estrategia para consolas. Experiencia única de juego con mecánicas innovadoras.'
             }
         ],
         
         // Móvil sub-items
         movil: [
             {
-                id: 'ios',
-                title: 'iOS Native',
-                mediaUrl: 'media/ios.mp4',
+                id: 'tikismikis-mobile',
+                title: 'TIKISMIKIS',
+                mediaUrl: 'media/tikismikis-mobile.mp4',
                 mediaType: 'video',
-                text: 'Desarrollo nativo para iOS con Swift y SwiftUI. Aplicaciones optimizadas para iPhone y iPad con las últimas tecnologías.'
+                text: 'Aplicación móvil de puzzle y estrategia. Experiencia optimizada para dispositivos móviles con controles táctiles intuitivos.'
             },
             {
-                id: 'android',
-                title: 'Android Native',
-                mediaUrl: 'media/android.gif',
-                mediaType: 'image',
-                text: 'Aplicaciones Android nativas con Kotlin y Jetpack Compose. Experiencias fluidas en dispositivos Android de todas las gamas.'
+                id: 'destroy-star-death-mobile',
+                title: 'Destroy Star Death',
+                mediaUrl: 'media/destroy-star-death-mobile.mp4',
+                mediaType: 'video',
+                text: 'Juego móvil de acción y destrucción. Adaptado específicamente para pantallas táctiles y dispositivos móviles.'
             },
             {
-                id: 'cross-platform',
-                title: 'Cross-Platform',
-                mediaUrl: 'media/cross-platform.mp4',
+                id: 'physiotherapy-ictus-mobile',
+                title: 'Physiotherapy VR (Ictus Rehabilitation)',
+                mediaUrl: 'media/physiotherapy-ictus-mobile.mp4',
                 mediaType: 'video',
-                text: 'Desarrollo multiplataforma con React Native, Flutter y Xamarin. Una base de código para iOS, Android y web.'
+                text: 'Aplicación móvil de rehabilitación de ictus. Sistema de fisioterapia adaptado para dispositivos móviles con seguimiento personalizado.'
             }
         ]
     }

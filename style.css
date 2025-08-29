@@ -437,7 +437,7 @@ body {
 
 @keyframes stars {
     from { transform: translateY(0); }
-    to { transform: translateY(8%); }
+    to { transform: translateY(1%); }
 }
 
 /* Center Divider */
@@ -460,17 +460,9 @@ body {
     backdrop-filter: blur(2px);
 }
 
-.center-divider::before {
-    content: "";
-    position: absolute;
-    inset: -999px -1px;
-    background: radial-gradient(closest-side, rgba(255,106,61,.24), transparent 65%);
-    animation: dividerFlow 6s linear infinite;
-    pointer-events: none;
-}
 
 @keyframes dividerFlow {
-    to { transform: translateY(40%); }
+    to { transform: translateY(0px); }
 }
 
 /* Move center divider in focus mode */
